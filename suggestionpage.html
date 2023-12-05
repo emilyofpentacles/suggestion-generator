@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Suggestion Generator</title>
+ <script src="suggestion-generator.js"></script>
+</head>
+<body>
+    <script>
+        function generateSuggestion() {
+          return document.getElementById("suggestion").innerHTML = randomSuggestions;
+        }
+      </script>
+
+  <h1>Cozy Game Suggestions</h1>
+  <button onclick="generateSuggestion()">Give me a game suggestion</button>
+  <p>You should play:</p> 
+  <p id="suggestion"></p>
+
+
+</body>
+</html>
